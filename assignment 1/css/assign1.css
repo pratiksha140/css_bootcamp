@@ -1,9 +1,10 @@
 body{
 	margin: 0;
-	width: 100%;
-
-	
+	width: 100%;	
 }
+@media(min-width: 1000px){
+	
+
 .box{
 	width: 37%;
 	box-sizing: border-box;
@@ -152,5 +153,157 @@ color: lightslategray;
 	font-size: 10px;
 	color: lightgray;
 	padding-left:5px ;
+}
+}
+
+@media(max-width:999px){
+.box{
+	width: auto;
+	box-sizing: border-box;
+	border: 1px solid lightgreen;
+	border-radius: 10px;
+	background-color:lightskyblue;
+	margin: 30px;
+	padding-bottom: 40px;
+
+}
+h1{
+	font-family:sans-serif;
+	font-size: 30px;
+	padding-left: 50px;
+	padding-top: 80px;
+}
+p{
+	padding-left: 50px ;
+	font-family: sans-serif;
+}
+.sub{
+	font-family: sans-serif;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	border: none;
+	margin-left: 40px;
+	background-color: white;
+}
+  .box1{width: auto;
+  	background-color: none;
+ 	border: 1px solid lightskyblue;
+ 	margin: 20px;
+ 	border-radius: 10px;
+
+}
+h2{
+	font-family: sans-serif;
+	padding: 8px 20px;
+	font-size: 20px;
+}
+.p1{
+	margin:0px;
+	font-size: 15px;
+	color: lightslategray;
+}
+img{
+	border-radius: 50%;
+	width: 20%;
+	padding: 30PX;
+}
+.img1{
+	height: 100px;
+	width: 21%;
+}
+h3{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: lightseagreen;
+	padding-left: 40px;
+}
+.box2{
+	border: 1px solid lightskyblue;
+border-radius:0px 0px 10px 10px ;
+
+}
+.box3{
+	width: auto;
+	border: 1px solid lightskyblue;
+	margin: 20px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+
+
+}
+.img2{
+	width: 100%;
+	height: 300px;
+	border: none;
+	border-radius: 20px;
+	margin: 0px;
+	padding: 0px;
+
+
+}
+.head{
+	color: darkgray;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-top: 15px;
+
+}
+.para{
+	font-size: 20px;
+	color: darkgray;
+	padding-left: 20px;
+}
+
+.sub1{
+	width: 150px;
+	border-radius: 10px;
+	padding: 15px;
+	color: royalblue;
+	background-color: white;
+	border: 1px solid lightskyblue;
+	margin-left: 20px;
+	font-size: 20px;
+
+}
+.container{
+	text-align: center;
+}
+.abc{
+margin-left: 0px;
+font-family: serif;
+font-size: 60px;
+padding-left: 6px;
+}
+.xyz{
+
+	font-size: 15px;
+}
+.log{
+	width: 200px;
+	border: 1px solid lightblue;
+	border-radius: 10px;
+	padding: 20px;
+
+}
+.login{
+	width: 140px;
+	border-radius: 40px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+}
+.sig{
+padding-left: 5px;
+font-size: 15px;
+color: lightslategray;
+}
+
+.sig1{
+	font-size: 10px;
+	color: lightgray;
+	padding-left:5px ;
+}
 }
 
